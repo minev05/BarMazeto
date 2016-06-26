@@ -1,15 +1,11 @@
-package dao;
+package com.barmazeto.dao;
 
-import java.util.Collection;
-
-import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
-import javax.persistence.Query;
 
 import org.hibernate.SessionFactory;
 
-import Entities.Product;
-import exceptions.DAOException;
+import com.barmazeto.entity.product.Product;
+import com.barmazeto.exceptions.DAOException;
 
 public class ProductDAO {
 	@PersistenceContext

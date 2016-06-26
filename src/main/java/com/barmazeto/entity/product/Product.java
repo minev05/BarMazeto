@@ -1,4 +1,4 @@
-package Entities;
+package com.barmazeto.entity.product;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

@@ -1,14 +1,11 @@
 package com.barmazeto.entities;
 
-import java.util.Collection;
-import java.util.Set;
-
 import org.junit.Test;
 
-import Entities.Product;
-import Entities.ProductType;
-import dao.ProductDAO;
-import exceptions.DAOException;
+import com.barmazeto.entity.product.Product;
+import com.barmazeto.entity.product.ProductType;
+import com.barmazeto.dao.ProductDAO;
+import com.barmazeto.exceptions.DAOException;
 
 public class ProductTest {
 
@@ -19,7 +16,7 @@ public class ProductTest {
 		System.out.println(product);
 		ProductDAO dao = new ProductDAO();
 		dao.addProduct(product);
-//		Collection<Product> products = dao.getAllProducts();
+//		Collection<Product> products = com.barmazeto.dao.getAllProducts();
 //		for (Product product2 : products) {
 //			System.out.println(product2);
 //		}
