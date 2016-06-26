@@ -1,0 +1,10 @@
+
+.idea/workspace.xml
+target/BarMazeto.war
+target/BarMazeto/
+target/generated-sources/
+target/generated-test-sources/
+*.class
+.idea/dataSources.ids
+.idea/dataSources.local.xml
+.idea/dataSources.xml
