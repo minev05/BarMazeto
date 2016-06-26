@@ -19,19 +19,19 @@ public class ProductDAO {
 			sessionFactory.getCurrentSession().getTransaction().commit();
 		} catch (RuntimeException e) {
 			sessionFactory.getCurrentSession().getTransaction().rollback();
-			throw new DAOException("Account can not be read from database!", e);
+			throw new DAOException("Product can not be write to database!", e);
 		}
 		return id;
 	}
 
-	public void deleteAccount(Product product) throws DAOException {
+	public void deleteProduct(Product product) throws DAOException {
 		try {
 			sessionFactory.getCurrentSession().beginTransaction();
 			sessionFactory.getCurrentSession().delete(product);
 			sessionFactory.getCurrentSession().getTransaction().commit();
 		} catch (RuntimeException e) {
 			sessionFactory.getCurrentSession().getTransaction().rollback();
-			throw new DAOException("Account can not be read from database!", e);
+			throw new DAOException("Product can not be read from database!", e);
 		}
 	}
 

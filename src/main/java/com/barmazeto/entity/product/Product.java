@@ -25,7 +25,7 @@ public class Product {
 	private String name;
 
 	@Column
-	private double price;
+	private Double price;
 
 	@Column
 	@Enumerated(EnumType.STRING)
