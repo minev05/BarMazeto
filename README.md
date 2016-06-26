@@ -12,4 +12,11 @@
 2, manager -> 1, 3, 6
 2, servitior -> 4
 2, barman -> 5
+
+kris - produktite + spravkite
+vankata - user
+tonkata i niki - ostanalite
+
+
+
 */
