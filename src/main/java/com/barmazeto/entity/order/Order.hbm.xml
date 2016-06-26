@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.barmazeto.entity.order">
+    <class name="Order" table="order">
+        <id name="idOrder" column="idOrder">
+            <generator class="native"/>
+        </id>
+        <property name="timeStarted"/>
+        <property name="timeFinished"/>
+        <property name="idBarman"/>
+        <property name="idWaiter"/>
+    </class>
+</hibernate-mapping>
